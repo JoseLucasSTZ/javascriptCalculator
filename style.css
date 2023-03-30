@@ -1,5 +1,6 @@
 body {
     color: white;
+    margin:0px;
 }
 
 .containerA {
@@ -9,6 +10,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    align-items: center;
 }
 
 .containerB {
@@ -26,8 +28,8 @@ body {
 
 .screen {
     background-color: black;
-    width: 80vw;
-    height: 500px;
+    width: 99vw;
+    height: 250px;
     display: flex;
     flex-direction: column;
 }
