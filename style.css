@@ -1,0 +1,45 @@
+body {
+    color: white;
+}
+
+.containerA {
+
+    background-color: rgb(94, 89, 89);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerC {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:3px;
+    justify-content: space-around;
+}
+
+.screen {
+    background-color: black;
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: darkslategrey;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 4px;
+}
+
+#equals {
+    background-color: lightgreen;
+}
